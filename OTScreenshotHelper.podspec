@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Mosoink/OTScreenshotHelper.git" }
 
   s.requires_arc = true
-  s.private_header_files = 'OTScreenshotHelper/Private/*.h'
   s.source_files = [
     'OTScreenshotHelper/Public/*.{h,m}',
     'OTScreenshotHelper/Private/*.{h,m}'
   ]
   s.public_header_files = [
+    'OTScreenshotHelper/Private/*.h'
     'OTScreenshotHelper/Public/*.h'
   ]
 end
