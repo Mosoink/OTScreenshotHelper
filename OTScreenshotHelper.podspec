@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     'OTScreenshotHelper/Private/*.{h,m}'
   ]
   s.public_header_files = [
-    'OTScreenshotHelper/Private/*.h'
+    'OTScreenshotHelper/Private/*.h',
     'OTScreenshotHelper/Public/*.h'
   ]
 end
